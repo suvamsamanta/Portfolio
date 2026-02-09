@@ -1,0 +1,18 @@
+#home .image {
+    animation: float 4s ease-in-out infinite;
+}
+@keyframes float {
+    0% { transform: translateY(0); }
+    50% { transform: translateY(-12px); }
+    100% { transform: translateY(0); }
+}
+
+.Skill-Card {
+    opacity: 0;
+    transform: translateY(40px);
+    transition: all 0.6s ease;
+}
+.Skill-Card.show {
+    opacity: 1;
+    transform: translateY(0);
+}
