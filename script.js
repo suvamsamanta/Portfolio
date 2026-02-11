@@ -1,9 +1,32 @@
+//Resume download
+
 function DownloadFile() {
     const downloadLink = document.createElement("a");
-    downloadLink.href = '#';
-    downloadLink.download = 'download.png';
+    downloadLink.href = 'resume.pdf';
+    downloadLink.download = 'resume_suvam_samanta.pdf';
     downloadLink.click();
 }
+
+//Menu toggle
+const icon = document.querySelector(".icon");
+const menu = document.querySelector(".list");
+const links = document.querySelectorAll(".list a");
+// Toggle menu on icon click
+icon.addEventListener("click", () => {
+    menu.classList.toggle("active");
+});
+// Hide menu when clicking any link
+links.forEach(link => {
+    link.addEventListener("click", () => {
+        menu.classList.remove("active");
+    });
+});
+
+//Edit copy
+document.addEventListener("copy", function (data) {
+    data.clipboardData.setData("text/plain", "বল হরি হরি বোল");
+    data.preventDefault();
+});
 
 
 // Skill Animation
