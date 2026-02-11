@@ -1,0 +1,33 @@
+@media only screen and (max-width: 665px){
+    nav .icon {
+        display: block;
+    }
+    nav .list.active{
+        display: flex;
+    }
+    nav .list {
+        display: none;
+        flex-direction: column;
+        text-align: center;
+        position: absolute;
+        top: 50px;
+        left: 20px;
+        padding: 20px 0;
+        width: 60%;
+        border-radius: 5px;
+        background-color: rgb(26, 244, 244);
+    }
+    nav .list li{
+        display: block;
+    }
+    #home article {
+        font-size: 1.5rem;
+    }
+    #home article span {
+        font-size: 1.8rem;
+    }
+
+    #about article {
+        padding: 0 20px;
+    }
+}

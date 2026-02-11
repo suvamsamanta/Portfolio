@@ -6,6 +6,9 @@
     margin: 0;
     padding: 0;
 }
+html {
+    scroll-behavior: smooth;
+}
 /* Body */
 body {
     background: linear-gradient(135deg, #0F172A, #1E293B);
@@ -137,6 +140,7 @@ h3 {
 }
 #about .content {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     padding: 20px 0;
 }
@@ -162,7 +166,7 @@ h3 {
 }
 #about .social {
     display: flex;
-    justify-content: space-around;
+    gap: 55px;
 }
 
 /* Skill Section */
