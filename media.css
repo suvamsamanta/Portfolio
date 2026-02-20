@@ -33,4 +33,7 @@
     #about article {
         padding: 0 20px;
     }
+    #about article .details {
+        display: block;
+    }
 }
