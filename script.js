@@ -1,11 +1,10 @@
 //Resume download
 
-function DownloadFile() {
-    const button = document.getElementById("button");
+const button = document.getElementById("button");
     button.addEventListener("click", ()=> {
         button.classList.add("click");
     });
-    
+function DownloadFile() {
     setTimeout(function(){
             button.classList.remove("click");
         },150);
