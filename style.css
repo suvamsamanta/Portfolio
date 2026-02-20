@@ -111,6 +111,7 @@ button {
     border-radius: 8px;
     background: linear-gradient(135deg, #38BDF8, #6366F1);
     color: white;
+    transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1);
 }
 button:hover {
     cursor: pointer;
@@ -229,4 +230,7 @@ footer{
     font-size: 1.15rem;
     background: #020617;
     color: #9CA3AF;
+}
+.click {
+    transform: scale(-1.1);
 }

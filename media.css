@@ -26,6 +26,9 @@
     #home article span {
         font-size: 1.8rem;
     }
+    #home button {
+        font-size: 0.8rem;
+    }
 
     #about article {
         padding: 0 20px;

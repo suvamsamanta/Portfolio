@@ -1,6 +1,14 @@
 //Resume download
 
 function DownloadFile() {
+    const button = document.getElementById("button");
+    button.addEventListener("click", ()=> {
+        button.classList.add("click");
+    });
+    
+    setTimeout(function(){
+            button.classList.remove("click");
+        },150);
     const downloadLink = document.createElement("a");
     downloadLink.href = 'resume.pdf';
     downloadLink.download = 'resume_suvam_samanta.pdf';
