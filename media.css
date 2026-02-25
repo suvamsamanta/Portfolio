@@ -10,12 +10,14 @@
         flex-direction: column;
         text-align: center;
         position: absolute;
-        top: 50px;
+        top: 51px;
         left: 20px;
         padding: 20px 0;
         width: 60%;
         border-radius: 5px;
-        background-color: rgb(26, 244, 244);
+        background: rgb(30, 41, 59, 0.92);
+        backdrop-filter: blur(14px);
+        border: 1px solid rgba(255, 255, 255, 0.15);
     }
     nav .list li{
         display: block;

@@ -5,6 +5,8 @@ const button = document.getElementById("button");
         button.classList.add("click");
     });
 function DownloadFile() {
+    const audio = document.getElementById("sound");
+    audio.play();
     setTimeout(function(){
             button.classList.remove("click");
         },150);

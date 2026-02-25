@@ -141,7 +141,7 @@ h3 {
 }
 #about .content {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: wrap-reverse;
     justify-content: space-around;
     padding: 20px 0;
 }
@@ -232,5 +232,5 @@ footer{
     color: #9CA3AF;
 }
 .click {
-    transform: scale(-1.1);
+    transform: scale(0.8);
 }
