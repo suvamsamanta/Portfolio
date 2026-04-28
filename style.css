@@ -8,6 +8,7 @@
 }
 html {
     scroll-behavior: smooth;
+    scrollbar-color: #7c54f4 #0F172A;
 }
 /* Body */
 body {
